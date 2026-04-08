@@ -1,108 +1,117 @@
 @charset "UTF-8";
 
+.bg-primary {
+  background-color: #4a3fa0 !important;
+}
+
 :root {
   color-scheme: light;
 
-  --color-dark: #121212;
-  --color-brand-light: #cce8e9;
-  --color-brand-dark: #324b4c;
-  --color-brand-primary: #167c80;
+  // Brand remapped to portfolio violet
+  --color-dark: #0a0a0f;
+  --color-brand-light: #e8e4ff;
+  --color-brand-dark: #4a3fa0;
+  --color-brand-primary: #7c6aff;
+  --color-bg-primary: #7c6aff !important;
 
   --theme-primary: var(--color-brand-primary);
   --theme-primary-strong: var(--color-brand-dark);
 
-  --theme-bg: #ffffff;
+  --theme-bg: #f5f5fa;
   --theme-bg-elevated: var(--color-brand-light);
-  --theme-bg-subtle: #e1efef;
+  --theme-bg-subtle: #ece9ff;
   --theme-bg-neutral: #fafafa;
-  --theme-bg-footer: #eee;
-  --theme-bg-device: #f6fafa;
+  --theme-bg-footer: #eeeeee;
+  --theme-bg-device: #f4f3ff;
 
-  --theme-text: #3c4858;
-  --theme-text-soft: #555555;
-  --theme-text-muted: #6c757d;
+  --theme-text: #1a1a2e;
+  --theme-text-soft: #3a3a5a;
+  --theme-text-muted: #6c6c8a;
 
-  --theme-border: #dee2e6;
-  --theme-border-soft: #e8e8e8;
+  --theme-border: #d0cce8;
+  --theme-border-soft: #e2e0f0;
 
   --theme-link: var(--color-brand-primary);
   --theme-link-hover: var(--color-brand-dark);
 
-  --theme-form-check-border: #8fa2a6;
+  --theme-form-check-border: #8a85b8;
 
-  --theme-overlay: rgba(73, 84, 84, 0.25);
-  --theme-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --theme-overlay: rgba(20, 18, 40, 0.25);
+  --theme-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
   --theme-primary-shadow:
-    0 14px 26px -12px rgba(22, 124, 128, 0.42),
-    0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(22, 124, 128, 0.2);
+    0 14px 26px -12px rgba(124, 106, 255, 0.42),
+    0 4px 23px 0 rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(124, 106, 255, 0.2);
 
-  --theme-alert-info-bg: #e7f1ff;
-  --theme-alert-info-border: #b8d6ff;
-  --theme-alert-info-text: #0a4f99;
+  --theme-alert-info-bg: #e8e4ff;
+  --theme-alert-info-border: #b8aaff;
+  --theme-alert-info-text: #2a1a99;
 
-  --theme-alert-success-bg: #e7f6ec;
-  --theme-alert-success-border: #bde0c8;
-  --theme-alert-success-text: #1f6b3a;
+  --theme-alert-success-bg: #e4fff2;
+  --theme-alert-success-border: #a0ecc4;
+  --theme-alert-success-text: #1a5c38;
 
-  --theme-alert-warning-bg: #fff5e6;
+  --theme-alert-warning-bg: #fff8e6;
   --theme-alert-warning-border: #f5d9a8;
   --theme-alert-warning-text: #7a5614;
 
-  --theme-alert-danger-bg: #fdeced;
-  --theme-alert-danger-border: #f5c6ca;
+  --theme-alert-danger-bg: #fde8ec;
+  --theme-alert-danger-border: #f5b8c0;
   --theme-alert-danger-text: #7a1f2a;
 
-  --transition-speed: 0.6s;
+  --transition-speed: 0.25s;
 }
 
 .dark {
   color-scheme: dark;
 
   --theme-bg: var(--color-dark);
-  --theme-bg-elevated: var(--color-brand-dark);
-  --theme-bg-subtle: #243738;
-  --theme-bg-neutral: #1f2526;
-  --theme-bg-footer: #1c1c1c;
-  --theme-bg-device: #212626;
+  --theme-bg-elevated: #1c1c28;
+  --theme-bg-subtle: #16161f;
+  --theme-bg-neutral: #111118;
+  --theme-bg-footer: #0d0d14;
+  --theme-bg-device: #13131c;
 
-  --theme-text: #e6ecef;
-  --theme-text-soft: #d5dfe3;
-  --theme-text-muted: #a3b2b8;
+  --theme-text: #e8e6ff;
+  --theme-text-soft: #c8c4e8;
+  --theme-text-muted: #8888aa;
 
-  --theme-border: #879393;
-  --theme-border-soft: #456566;
+  --theme-border: #2a2a3a;
+  --theme-border-soft: #222230;
 
   --theme-link: var(--color-brand-primary);
-  --theme-link-hover: #e3f6f7;
+  --theme-link-hover: #c8c0ff;
 
-  --theme-form-check-border: #eeeeee;
+  --theme-form-check-border: #5a5580;
 
-  --theme-overlay: rgba(0, 0, 0, 0.55);
-  --theme-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.35);
+  --theme-overlay: rgba(0, 0, 0, 0.6);
+  --theme-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
   --theme-primary-shadow:
-    0 14px 26px -12px rgba(22, 124, 128, 0.38),
-    0 4px 23px 0 rgba(0, 0, 0, 0.28), 0 8px 10px -5px rgba(22, 124, 128, 0.18);
+    0 14px 26px -12px rgba(124, 106, 255, 0.38),
+    0 4px 23px 0 rgba(0, 0, 0, 0.3),
+    0 8px 10px -5px rgba(124, 106, 255, 0.18);
 
-  --theme-alert-info-bg: #10263e;
-  --theme-alert-info-border: #2b5c90;
-  --theme-alert-info-text: #d9eaff;
+  --theme-alert-info-bg: #1a1630;
+  --theme-alert-info-border: #4a3fa0;
+  --theme-alert-info-text: #d8d0ff;
 
-  --theme-alert-success-bg: #1c3f2a;
-  --theme-alert-success-border: #2d6b46;
-  --theme-alert-success-text: #d7f6e3;
+  --theme-alert-success-bg: #0e2a1c;
+  --theme-alert-success-border: #1f5c38;
+  --theme-alert-success-text: #b0f0d0;
 
-  --theme-alert-warning-bg: #4a3614;
-  --theme-alert-warning-border: #8a6525;
-  --theme-alert-warning-text: #ffe8c2;
+  --theme-alert-warning-bg: #2a2010;
+  --theme-alert-warning-border: #7a5614;
+  --theme-alert-warning-text: #ffe8c0;
 
-  --theme-alert-danger-bg: #4d1e26;
-  --theme-alert-danger-border: #8a3342;
-  --theme-alert-danger-text: #ffd7dd;
+  --theme-alert-danger-bg: #2a1018;
+  --theme-alert-danger-border: #7a1f2a;
+  --theme-alert-danger-text: #ffd0d8;
 }
 
 body {
   background-color: var(--theme-bg);
   color: var(--theme-text);
+  font-family: var(--font-main);
   transition:
     background-color var(--transition-speed),
     color var(--transition-speed);
@@ -110,6 +119,7 @@ body {
 
 a {
   color: var(--theme-link);
+  transition: color var(--transition-speed);
 }
 
 a:hover,
@@ -158,6 +168,7 @@ hr {
   color: var(--theme-text) !important;
   background-color: var(--theme-bg-elevated) !important;
   border-color: var(--theme-border) !important;
+  border-radius: var(--radius-sm);
   transition: all var(--transition-speed);
 }
 
@@ -209,6 +220,8 @@ hr {
 .list-group-item-action:hover,
 .list-group-item-action:focus {
   background-color: var(--theme-bg-subtle);
+  color: var(--theme-text);
+  transition: background-color var(--transition-speed);
 }
 
 @include media-breakpoint-down(md) {
@@ -228,7 +241,11 @@ hr {
     linear-gradient(
       to top,
       var(--theme-primary) 2px,
-      rgba(22, 124, 128, 0) 2px
+      rgba(124, 106, 255, 0) 2px
     ),
-    linear-gradient(to top, var(--theme-border) 1px, rgba(210, 210, 210, 0) 1px);
+    linear-gradient(
+      to top,
+      var(--theme-border) 1px,
+      rgba(210, 210, 210, 0) 1px
+    );
 }

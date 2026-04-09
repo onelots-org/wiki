@@ -3,10 +3,10 @@
 :root {
   color-scheme: light;
 
-  --color-dark: #121212;
+  --color-dark: #0a0a0f;
   --color-brand-light: #cce8e9;
-  --color-brand-dark: #324b4c;
-  --color-brand-primary: #167c80;
+  --color-brand-dark: #1c1c28;
+  --color-brand-primary: #7c6aff;
 
   --theme-primary: var(--color-brand-primary);
   --theme-primary-strong: var(--color-brand-dark);
@@ -63,7 +63,7 @@
   --theme-bg-subtle: #243738;
   --theme-bg-neutral: #1f2526;
   --theme-bg-footer: #1c1c1c;
-  --theme-bg-device: #212626;
+  --theme-bg-device: #16161f;
 
   --theme-text: #e6ecef;
   --theme-text-soft: #d5dfe3;

@@ -10,7 +10,6 @@ DEVICES=(
   "scorpio"
   "ibiza"
   "dumpling"
-  "kebab"
   "fajita"
   "guacamole" # will be guacamole and guacamoleb so...
   "hotdog" # well same

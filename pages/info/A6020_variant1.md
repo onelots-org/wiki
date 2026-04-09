@@ -1,8 +1,0 @@
----
-sidebar: home_sidebar
-title: Info about A6020
-layout: deviceinfo
-permalink: /devices/A6020/variant1/
-device: A6020_variant1
----
-{% include templates/device_info.md %}

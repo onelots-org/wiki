@@ -29,15 +29,15 @@ These packages are only dependent on your OS version and architecture, which can
 
 ### Mobile
 
-|Version                   |Link                                                   |
-|--------------------------|-------------------------------------------------------|
-|LineageOS 23 (Android 16)|MindTheGapps ([ARM](https://github.com/MindTheGapps/16.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/16.0.0-arm64/releases/latest))|
-|LineageOS 22 (Android 15)|MindTheGapps ([ARM](https://github.com/MindTheGapps/15.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/15.0.0-arm64/releases/latest))|
-|LineageOS 21 (Android 14)|MindTheGapps ([ARM](https://github.com/MindTheGapps/14.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest))|
-|LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest))|
-|LineageOS 19.1 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64/releases/latest))|
-|LineageOS 18.1 (Android 11)|MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64/releases/latest))|
-|Older versions|[See here]({{ "gapps/old" | relative_url }})|
+| Version                      | Link                                                                                                                                                    |                  |
+| ------------------------------| ---------------------------------------------------------------------------------------------------------------------------------------------------------| ------------------|
+| LineageOS 23 (Android 16)    | MindTheGapps ([ARM](https://github.com/MindTheGapps/16.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/16.0.0-arm64/releases/latest)) |                  |
+| LineageOS 22 (Android 15)    | MindTheGapps ([ARM](https://github.com/MindTheGapps/15.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/15.0.0-arm64/releases/latest)) |                  |
+| LineageOS 21 (Android 14)    | MindTheGapps ([ARM](https://github.com/MindTheGapps/14.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest)) |                  |
+| LineageOS 20 (Android 13)    | MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest)) |                  |
+| LineageOS 19.1 (Android 12L) | MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64/releases/latest)) |                  |
+| LineageOS 18.1 (Android 11)  | MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64/releases/latest)) |                  |
+| Older versions               | [See here]({{ "gapps/old"                                                                                                                               | relative_url }}) |
 {: .table }
 
 ### Android TV

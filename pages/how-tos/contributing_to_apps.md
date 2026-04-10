@@ -16,18 +16,18 @@ The following apps can be built with Gradle seperate from the main codebase.
 {%- capture content %}If an app is not listed here, it can't be built with Gradle, and will need to be built with the entire codebase as described in the build section of [your device]({{ "devices/" | relative_url }}).{% endcapture %}
 {% include alerts/note.html content=content %}
 
-| App             | Description        | Gerrit                                                                                   | GitHub                                                             |
-|-----------------|--------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| Aperture        | Camera             | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Aperture)        | [GitHub](https://github.com/LineageOS/android_packages_apps_Aperture)         |
-| Camelot         | PDF Viewer         | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Camelot)         | [GitHub](https://github.com/LineageOS/android_packages_apps_Camelot)          |
-| DeskClock       | Clock              | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_DeskClock)       | [GitHub](https://github.com/LineageOS/android_packages_apps_DeskClock)        |
-| ExactCalculator | Calculator         | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_ExactCalculator) | [GitHub](https://github.com/LineageOS/android_packages_apps_ExactCalculator)  |
-| Glimpse         | Gallery            | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Glimpse)         | [GitHub](https://github.com/LineageOS/android_packages_apps_Glimpse)          |
-| Jelly           | Browser            | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Jelly)           | [GitHub](https://github.com/LineageOS/android_packages_apps_Jelly)            |
-| LatinIME        | Keyboard           | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_inputmethods_LatinIME)| [GitHub](https://github.com/LineageOS/android_packages_inputmethods_LatinIME) |
-| Recorder        | Audio Recorder     | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Recorder)        | [GitHub](https://github.com/LineageOS/android_packages_apps_Recorder)         |
-| Twelve          | Music Player       | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Twelve)          | [GitHub](https://github.com/LineageOS/android_packages_apps_Twelve)           |
-| Etar            | Calendar           | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Etar)            | [GitHub (upstream)](https://github.com/Etar-Group/Etar-Calendar)                |
+| App             | Description    | Gerrit                                                                                              | GitHub                                                                        |
+| -----------------| ----------------| -----------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------|
+| Aperture        | Camera         | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Aperture)         | [GitHub](https://github.com/LineageOS/android_packages_apps_Aperture)         |
+| Camelot         | PDF Viewer     | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Camelot)          | [GitHub](https://github.com/LineageOS/android_packages_apps_Camelot)          |
+| DeskClock       | Clock          | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_DeskClock)        | [GitHub](https://github.com/LineageOS/android_packages_apps_DeskClock)        |
+| ExactCalculator | Calculator     | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_ExactCalculator)  | [GitHub](https://github.com/LineageOS/android_packages_apps_ExactCalculator)  |
+| Glimpse         | Gallery        | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Glimpse)          | [GitHub](https://github.com/LineageOS/android_packages_apps_Glimpse)          |
+| Jelly           | Browser        | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Jelly)            | [GitHub](https://github.com/LineageOS/android_packages_apps_Jelly)            |
+| LatinIME        | Keyboard       | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_inputmethods_LatinIME) | [GitHub](https://github.com/LineageOS/android_packages_inputmethods_LatinIME) |
+| Recorder        | Audio Recorder | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Recorder)         | [GitHub](https://github.com/LineageOS/android_packages_apps_Recorder)         |
+| Twelve          | Music Player   | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Twelve)           | [GitHub](https://github.com/LineageOS/android_packages_apps_Twelve)           |
+| Etar            | Calendar       | [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Etar)             | [GitHub (upstream)](https://github.com/Etar-Group/Etar-Calendar)              |
 {: .table }
 
 {%- capture content %}Etar (our calender app) is pulled from the [upstream project](https://github.com/Etar-Group/Etar-Calendar), so most contributions should be made via pull request at their repository. If your change is specific to Lineage's fork, then you can submit it to [Gerrit](https://review.lineageos.org/admin/repos/LineageOS/android_packages_apps_Etar).{% endcapture %}

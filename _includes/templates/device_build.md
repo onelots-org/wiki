@@ -58,6 +58,8 @@ This will download your device's [device specific configuration](https://github.
 kernel.
 {%- endif %}
 
+Note : If the link above doesn't work, you are likely trying to build for EvolutionX. If yes, please use this [device specific configuration](https://github.com/Evolution-X-devices/{{ device.tree }}) and this [kernel](https://github.com/Evolution-x-devices/{{ device.kernel.repo }}).
+
 {% include alerts/important.html content="Some devices require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
 makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeeded, and after completing you can [rerun
 `breakfast`](#prepare-the-device-specific-code)" %}

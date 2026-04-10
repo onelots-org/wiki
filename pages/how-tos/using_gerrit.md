@@ -23,13 +23,13 @@ A review system is defined by the ability to approve or disapprove changes and t
 Anyone with an account can reply to a patch and add a label:
 
 {:.table}
-| Label | Definition | Meaning |
-|-------|------------|---------|
-| **-2** | Do not submit | This patch can't be submitted without the removal of the vote |
-| **-1** | I would prefer that you didn't submit this | The code or the idea doesn't match the project's standards |
-|  **0** | No score | I just have some generic info I'd like to share via the reply message |
-| **+1** | Looks good to me, but someone else must approve | The code and idea meets the standards of the project |
-| **+2** | Looks good to me, approved | After verification of the content this patch can be submitted |
+| Label  | Definition                                      | Meaning                                                               |
+| --------| -------------------------------------------------| -----------------------------------------------------------------------|
+| **-2** | Do not submit                                   | This patch can't be submitted without the removal of the vote         |
+| **-1** | I would prefer that you didn't submit this      | The code or the idea doesn't match the project's standards            |
+| **0**  | No score                                        | I just have some generic info I'd like to share via the reply message |
+| **+1** | Looks good to me, but someone else must approve | The code and idea meets the standards of the project                  |
+| **+2** | Looks good to me, approved                      | After verification of the content this patch can be submitted         |
 
 The labels **+2** and **-2** are limited to the maintainers of the project or of the device a patch is meant for.
 
